@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-admoji",
+      "description": "Connect AI agents to Admoji using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-admoji/SKILL.md": "a52822a28a90400e59faa3f2247758df7a9e4937a32ff35cd0f82d733b159a85"
+  }
+}
