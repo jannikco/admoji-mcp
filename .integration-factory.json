@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "ef57cb9d5bd9c05134d4fff4bd5578b2119318285a3d85dd9997a66a7420e880",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.admoji.com/"
+  ],
+  "id": "admoji-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Admoji MCP setup and connection checker",
+  "description": "Generate Admoji MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "admoji",
+  "appName": "Admoji",
+  "providerDocs": "https://docs.admoji.com/",
+  "providerWebsite": "https://admoji.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.admoji.com/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-admoji-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
